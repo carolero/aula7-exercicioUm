@@ -26,7 +26,11 @@ public class ExercicioUm {
 			
 			if (numeroDigitado % 2 == 0) {
 				
-				//ADD AQUI
+				valor = valor + numeroDigitado;
+				totalPares++;
+				System.out.println("A média dos números pares é de: ");
+				int media = valor / totalPares;
+				System.out.println(media);
 				
 			} else {
 				numerosImpares.add(numeroDigitado);
